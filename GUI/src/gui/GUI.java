@@ -6,7 +6,7 @@
 package gui;
 
 /**
- *
+ * SAVE, COMMIT, SYNC
  * @Andrew Russomagno, Ryan Cathcart , and Tim
  */
 public class GUI 
