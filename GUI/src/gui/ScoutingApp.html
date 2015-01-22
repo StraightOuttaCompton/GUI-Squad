@@ -15,7 +15,7 @@ and open the template in the editor.
   p    {color:aqua;}
   table {
     width: 100%;
-    display:block;
+    display: block;
 }
 thead {
     display: inline-block;
@@ -28,23 +28,35 @@ tbody {
     width: 100%;
     overflow: auto;
 }
+
+tr {
+    width: 600px !important;
+}
+
+td {
+    width: 33%;
+    padding: auto;
+}
+.col1 {
+    width: 280px;
+}
    </style>
     </head>
     <body>
     <center><h2>HCRHS</h2></center>
         <hr>
         <div><center><b><font color="black" size=+2>Scouting App</font></b></center></div>
-        <table style="width:75%" border="3" align="right" cellpadding="5 " cellspacing="10">  
+        <table style="width: 75%" border="3" align="right" cellpadding="5 " cellspacing="10">  
             <thead>  
             <tr>
-                <th width="430">First Name</th>
-                <th width="430">Last Name</th>
-                <th width="430">Age</th>
+                <th class="col1">First Name</th>
+                <th class="col1">Last Name</th>
+                <th class="col1">Age</th>
             </tr>
             </thead>
             <tbody>
             <tr bgcolor="white">
-                <td>Tim</td>
+                <td class="col1">Tim</td>
                 <td>Altonji</td>
                 <td>15</td>
             </tr>
